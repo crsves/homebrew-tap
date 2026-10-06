@@ -1,8 +1,8 @@
 class Pages < Formula
   desc "Render Apple Pages documents in the terminal"
   homepage "https://github.com/crsves/pages"
-  url "https://github.com/crsves/pages/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "413a805830ad81f8444b67d5e1ca400c89ab44a647dfa43c02755e4c74327d7f"
+  url "https://github.com/crsves/pages/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "eafcc18e8e7122a0a776d8e65fc7f9ee50d1866b7a1364a182658412e8a3c03d"
   license "MIT"
   head "https://github.com/crsves/pages.git", branch: "main"
 
@@ -16,7 +16,7 @@ class Pages < Formula
 
   test do
     resource "homebrew-fixture" do
-      url "https://raw.githubusercontent.com/crsves/pages/v0.1.0/tests/fixtures/fixture.pages"
+      url "https://raw.githubusercontent.com/crsves/pages/v0.1.1/tests/fixtures/fixture.pages"
       sha256 "d03a83afe3dc67122dd0bb15e838080c092c428a4379bd87527e832fcdcc5c4b"
     end
 
